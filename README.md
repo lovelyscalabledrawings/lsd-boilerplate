@@ -32,12 +32,12 @@ To get started as quick as possible, update submodules to get all dependencies:
 
 You will need jsus here. Navigate to this directory and execute this:
 
-jsus . Compiled -d Dependencies -g -b -v
-     ^  ^          ^            ^  ^  ^
-     |  |          |- packages  |  |  |- Be verbose about problems with sources
-     |  |- output directory     |  |- Measure compilation time
-     |- this directory          |- Generate includes.js for development
-
+    jsus . Compiled -d Dependencies -g -b -v
+         ^  ^          ^            ^  ^  ^
+         |  |          |- packages  |  |  |- Be verbose about problems with sources
+         |  |- output directory     |  |- Measure compilation time
+         |- this directory          |- Generate includes.js for development
+    
 
 It will take all javascript files in this package, and their dependencies and make
 them includable right away. It may look like this:
