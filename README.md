@@ -74,27 +74,28 @@ Jsus may also be used as a ruby rack middleware to serve files dynamically.
 You can find examples of the setups at http://github.com/jsus
 
 ## Dependencies
-  
+
+* LSD libraries:
   * **lsd** it's what we're after. LSD framework itself.
   * **lsd-mobile** mobile widgets
   * **lsd-native** native form fields
   * **lsd-widget** various custom widgets
-  
+* Official mootools libraries
   * **mootools-core** v1.3
   * **mootools-more** v1.3 (used for dates and sortables)
   * **mootools-color** mootools color module
+* Unofficial mootools extensions
   * **mootools-ext** extra mootools events, properties and features
+  * **mootools-string-inflections** a module for railsesque string pluralization 
+  * **mootools-custom-event** a library for pseudo events
+  * **mootools-mobile** (fork) mootools tweaks for mobile devices
+* Extras
   * **mootools-resource** a lightweight javascript REST ORM
   * **mootools-uploader** multiple file uploader 
-  * **mootools-custom-event** a library for pseudo events 
-  * **mootools-mobile** mootools tweaks for mobile devices
-  
   * **qfocuser** a library for native focus
-  * **slick** a crossbrowser selector engine
-  * **Sheet.js** stylesheet parser library
-  
-  also included just in case
-  
+  * **slick** (fork) a crossbrowser selector engine
+  * **Sheet.js** (fork) stylesheet parser library
+* Just in case
   * **art** SVG/VML drawing tool for vector graphics
   * **lsd-specs** spec suite for LSD for maintenance
-     
+  * **lsd.wiki**, documentation
