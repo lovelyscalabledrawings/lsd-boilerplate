@@ -1,0 +1,60 @@
+[submodule "Dependencies/qfocuser"]
+	path = Dependencies/qfocuser
+	url = git://github.com/Inviz/qfocuser.git
+[submodule "Dependencies/art"]
+	path = Dependencies/art
+	url = git://github.com/calyptus/art.git
+[submodule "Dependencies/mootools-color"]
+	path = Dependencies/mootools-color
+	url = git://github.com/kamicane/mootools-color.git
+[submodule "Dependencies/mootools-more"]
+	path = Dependencies/mootools-more
+	url = git://github.com/mootools/mootools-more.git
+[submodule "Dependencies/mootools-core"]
+	path = Dependencies/mootools-core
+	url = git://github.com/mootools/mootools-core.git
+[submodule "Dependencies/mootools-ext"]
+	path = Dependencies/mootools-ext
+	url = git://github.com/Inviz/mootools-ext.git
+[submodule "Dependencies/mootools-mobile"]
+	path = Dependencies/mootools-mobile
+	url = git://github.com/Inviz/mootools-mobile.git
+[submodule "Dependencies/mootools-custom-event"]
+	path = Dependencies/mootools-custom-event
+	url = git://github.com/cpojer/mootools-custom-event.git
+[submodule "Dependencies/lsd-themes"]
+	path = Dependencies/lsd-themes
+	url = git://github.com/Inviz/lsd-themes.git
+[submodule "Dependencies/lsd-specs"]
+	path = Dependencies/lsd-specs
+	url = git://github.com/Inviz/lsd-specs.git
+[submodule "Dependencies/lsd-widgets"]
+	path = Dependencies/lsd-widgets
+	url = git://github.com/Inviz/lsd-widgets.git
+[submodule "Dependencies/lsd"]
+	path = Dependencies/lsd
+	url = git://github.com/Inviz/lsd.git
+[submodule "Dependencies/lsd-native"]
+	path = Dependencies/lsd-native
+	url = git://github.com/Inviz/lsd-native.git
+[submodule "slick"]
+	path = slick
+	url = git://github.com/lovelyscalabledrawings/slick.git
+[submodule "Dependencies/lsd-mobile"]
+	path = Dependencies/lsd-mobile
+	url = git://github.com/Inviz/lsd-mobile.git
+[submodule "Dependencies/mootools-resource"]
+	path = Dependencies/mootools-resource
+	url = git://github.com/Inviz/mootools-resource.git
+[submodule "Dependencies/mootools-string-inflections"]
+	path = Dependencies/mootools-string-inflections
+	url = git://github.com/lovelyscalabledrawings/mootools-string-inflections.git
+[submodule "Dependencies/mootools-uploader"]
+	path = Dependencies/mootools-uploader
+	url = git://github.com/Inviz/mootools-uploader.git
+[submodule "Dependencies/slick"]
+	path = Dependencies/slick
+	url = git://github.com/lovelyscalabledrawings/slick.git
+[submodule "Dependencies/Sheet.js"]
+	path = Dependencies/Sheet.js
+	url = git://github.com/Inviz/Sheet.js.git

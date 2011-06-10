@@ -1,0 +1,8 @@
+name: MyProject
+fullname: My take on LSD
+filename: my_project.js
+description: Can this framework be the one?
+license: Public domain, http://unlicense.org
+copyright: Your name
+sources:
+  - Source/Application.js
