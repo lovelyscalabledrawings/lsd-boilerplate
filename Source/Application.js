@@ -64,5 +64,5 @@ Some useful things to require:
 /*
   Only initialize application in non-test environment.
 */
-if (typeof location != 'undefined' && location.indexOf('lsd-specs') == -1)
+if (typeof location == 'undefined' || location.indexOf('lsd-specs') == -1)
   Application = new LSD.Document;

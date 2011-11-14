@@ -1,12 +1,5 @@
 before_script: 
-  - 
-    git submodule init
-    for i in $(git submodule | sed -e 's/.* //'); do
-        spath=$(git config -f .gitmodules --get submodule.$i.path)
-        surl=$(git config -f .gitmodules --get submodule.$i.url)
-        git clone --depth 1 $surl $spath
-    done
-    git submodule update
+  - "bin/shallow_clone.sh"
   - "bin/compile_for_test.sh"
   - "sh -e /etc/init.d/xvfb start"
 script: "sh -c 'cd Dependencies/lsd-specs && DISPLAY=:99.0 bundle exec rake jasmine:headless'"
