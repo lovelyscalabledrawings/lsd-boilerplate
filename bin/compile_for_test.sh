@@ -1,1 +1,1 @@
-jsus . Dependencies/lsd-specs/Compiled -d Dependencies -b -v --generate-includes=.
+jsus . Dependencies/lsd-specs/Compiled -d Dependencies -b -v --generate-includes=Dependencies/lsd-specs
