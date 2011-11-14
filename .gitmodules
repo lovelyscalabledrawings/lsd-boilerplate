@@ -25,6 +25,9 @@
 [submodule "Dependencies/lsd-themes"]
 	path = Dependencies/lsd-themes
 	url = git://github.com/lovelyscalabledrawings/lsd-themes.git
+[submodule "Dependencies/lsd-script"]
+	path = Dependencies/lsd-script
+	url = git://github.com/lovelyscalabledrawings/lsd-script.git
 [submodule "Dependencies/lsd-specs"]
 	path = Dependencies/lsd-specs
 	url = git://github.com/lovelyscalabledrawings/lsd-specs.git
@@ -34,9 +37,6 @@
 [submodule "Dependencies/lsd"]
 	path = Dependencies/lsd
 	url = git://github.com/lovelyscalabledrawings/lsd.git
-[submodule "Dependencies/lsd-native"]
-	path = Dependencies/lsd-native
-	url = git://github.com/lovelyscalabledrawings/lsd-native.git
 [submodule "slick"]
 	path = slick
 	url = git://github.com/lovelyscalabledrawings/slick.git
