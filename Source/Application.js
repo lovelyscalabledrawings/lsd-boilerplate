@@ -10,20 +10,14 @@ authors:
 requires:
   - LSD/LSD.Widget
   - LSD/LSD.Document
-  - Widgets/LSD.Widget.Body
+  - LSD/LSD.Layout
+  - Widgets/LSD.Widget.Body*
+  - Widgets/LSD.Widget.Input*
   - Widgets/LSD.Widget.Form
   - Widgets/LSD.Widget.Label
-  - LSD/LSD.Action.Append
-  - LSD/LSD.Action.Update
-  - LSD/LSD.Action.Check
-  - LSD/LSD.Action.Clone
-  - LSD/LSD.Action.Delete
-  - LSD/LSD.Action.Display
-  - LSD/LSD.Action.Focus
-  - LSD/LSD.Action.Replace
-  - LSD/LSD.Action.Set
-  - LSD/LSD.Action.State
-  - LSD/LSD.Action.Submit
+  - LSD/LSD.Action.*
+  - LSD/LSD.Mixin.Target
+  - LSD/LSD.Mixin.Request
 
 provides: [Application]
 
@@ -67,4 +61,8 @@ Some useful things to require:
 ...
 */
 
-Application = new LSD.Document;
+/*
+  Only initialize application in non-test environment.
+*/
+if (typeof location != 'undefined' && location.indexOf('lsd-specs') == -1)
+  Application = new LSD.Document;
