@@ -10,9 +10,7 @@ authors:
 requires:
   - LSD/LSD.Widget
   - LSD/LSD.Document
-  - Native/LSD.Native.*
   - Widgets/LSD.Widget.Body
-  - Widgets/LSD.Widget.Anchor
   - Widgets/LSD.Widget.Form
   - Widgets/LSD.Widget.Label
   - LSD/LSD.Action.Append
